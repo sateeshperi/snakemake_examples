@@ -1,0 +1,7 @@
+# cluster_config.yml - cluster configuration
+__default__:
+    account: "bjoyce3"
+    partition: "standard"
+    time: "00:30:00" # time limit for each job
+    cpus: "12" #Request n cores be allocated per node.
+    mem: "4g"
